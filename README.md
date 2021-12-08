@@ -21,9 +21,14 @@ Bluetooth를 이용한 원격제어 멀티탭 만들기
 <p><img src="사진 모음/srd-05vdc-sl-c 릴레이 모듈.png" width="200" height="200"></img> srd-05vdc-sl-c 릴레이 모듈</p>
 <p><img src="사진 모음/아두이노UNO R3.png" width="300" height="200"></img> 아두이노UNO R3</p>
 
-## 도안 및 구현한 방법
+## 도안
 <p><img src="사진 모음/1차 회로도.png"></img></p>
-1차 회로도
+
+## 구현과정
+
+
+## 시연
+https://user-images.githubusercontent.com/67256177/145161592-518c770d-f2c3-463a-aeb4-061a8955a0a7.mp4
 
 ## 코드
 
