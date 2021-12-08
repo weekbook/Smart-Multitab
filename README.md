@@ -31,6 +31,8 @@ Bluetooth를 이용한 원격제어 멀티탭 만들기
 https://user-images.githubusercontent.com/67256177/145161592-518c770d-f2c3-463a-aeb4-061a8955a0a7.mp4
 
 ## 코드
+<h4>아두이노 코드</h4>
+
 ```
 #include <SoftwareSerial.h> //시리얼 통신 라이브러리 호출
 
@@ -90,6 +92,9 @@ void loop() {
   }
 }
 ```
+
+<h4>앱인벤터 코드</h4>
+<p><img src="사진 모음/코드.png"></img></p>
 
 ## 프로젝트를 진행하면서 발생한 문제점과 그 해결방법
 
