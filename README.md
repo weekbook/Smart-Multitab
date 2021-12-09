@@ -16,16 +16,35 @@ Bluetooth를 이용한 원격제어 멀티탭 만들기
 +손이 닿지 않는 원거리에서도 멀티탭의 스위치 버튼을 직접 누르지 않아도 각 콘센트의 전류를 제어하기 위한 멀티탭을 구현하는게 프로젝트의 목표입니다.
 
 ## 프로젝트를 진행하는데 사용한 장치 및 부품
-<p><img src="사진 모음/2구 콘센트.png" width="250" height="150"></img> 2구 콘센트</p>
-<p><img src="사진 모음/HC-06 블루투스 모듈.png" width="300" height="100"></img> HC-06 블루투스 모듈</p>
-<p><img src="사진 모음/srd-05vdc-sl-c 릴레이 모듈.png" width="200" height="200"></img> srd-05vdc-sl-c 릴레이 모듈</p>
-<p><img src="사진 모음/아두이노UNO R3.png" width="300" height="200"></img> 아두이노UNO R3</p>
+<p><img src="사진 모음/2구 콘센트.png" width="350" height="250"></img></p>
+<h4>2구 콘센트</h4>
+<p><img src="사진 모음/HC-06 블루투스 모듈.png" width="350" height="150"></img></p>
+<h4>HC-06 블루투스 모듈</h4>
+<p><img src="사진 모음/srd-05vdc-sl-c 릴레이 모듈.png" width="350" height="250"></img> </p>
+<h4>srd-05vdc-sl-c 릴레이 모듈</h4>
+<p><img src="사진 모음/아두이노UNO R3.png" width="350" height="250"></img> </p>
+<h4>아두이노UNO R3</h4>
+<p><img src="사진 모음/브레드보드.jpg" width="350" height="250"></img> </p>
+<h4>브레드보드</h4>
 
 ## 도안
 <p><img src="사진 모음/1차 회로도.png"></img></p>
 
 ## 구현과정
-
+<h3 align="center"><전선 피복 벗기기></h3>
+<p align="center"><img src="사진 모음/전선피복1.jpg" width="800" height="500"></img> </p>
+<p align="center"><img src="사진 모음/전선피복2.jpg" width="800" height="500"></img> </p>
+<p align="center"><img src="사진 모음/전선피복3.jpg" width="800" height="500"></img> </p>
+<h3 align="center"><릴레이 모듈 아두이노 연결></h3>
+<p align="center"><img src="사진 모음/릴레이 연결.jpg" width="800" height="500"></img> </p>
+<h3 align="center"><블루투스 모듈 아두이노 연결></h3>
+<p align="center"><img src="사진 모음/릴레이+블루트스 연결.jpg" width="800" height="500"></img> </p>
+<h3 align="center"><릴레이 모듈과 전선 연결></h3>
+<p align="center"><img src="사진 모음/릴레이모듈 전선연결.jpg" width="800" height="500"></img> </p>
+<h3 align="center"><블루투스 조작을 위한 애플리케이션 개발></h3>
+<p align="center"><img src="사진 모음/스마트멀티탭 애플리케이션1.png" width="800" height="500"></img> </p>
+<h3 align="center"><작동></h3>
+<p align="center"><img src="사진 모음/작동.jpg" width="600" height="800"></img> </p>
 
 ## 시연
 https://user-images.githubusercontent.com/67256177/145161592-518c770d-f2c3-463a-aeb4-061a8955a0a7.mp4
@@ -94,7 +113,7 @@ void loop() {
 ```
 
 <h4>앱인벤터 코드</h4>
-<p><img src="사진 모음/코드.png"></img></p>
+<p><img src="사진 모음/앱인벤터 코드.png"></img></p>
 
 ## 프로젝트를 진행하면서 발생한 문제점과 그 해결방법
 
