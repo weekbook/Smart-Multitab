@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/67256177/145161592-518c770d-f2c3-463a-
 ## 코드
 <h4>아두이노 코드</h4>
 
-```INO
+```
 #include <SoftwareSerial.h> //시리얼 통신 라이브러리 호출
 
 int Relaypin1 = 8;
