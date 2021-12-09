@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/67256177/145161592-518c770d-f2c3-463a-
 
 int Relaypin1 = 8;
 int LED = 13;
-int count = 0;
+//int count = 0;
 int blueTxd=2;   //Txd(Transmit Data) 송신 신호
 int blueRxd=3;   //Rxd(Receive Data) 수신 신호
 
