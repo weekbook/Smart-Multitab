@@ -67,7 +67,7 @@ String myString=""; //받는 문자열
 void setup() {
   pinMode(Relaypin1, OUTPUT); // RelayPin1(8번핀)을 OUTPUT으로 설정
   Serial.begin(9600);   // 시리얼모니터 
-  mySerial.begin(9600); // 블루투스 시리얼 개방
+  mySerial.begin(9600); // 블루투스 시리얼
   pinMode(LED, OUTPUT);  // LED(13번핀)을 OUTPUT으로 설정
 }
 
